@@ -1,0 +1,13 @@
+/* Reset margins and ensure full-screen canvas */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Container for the game */
+#game-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000; /* Black background for the game */
+}
